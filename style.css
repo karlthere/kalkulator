@@ -1,0 +1,78 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Matemasie&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	height: 100vh;
+	gap: 100px;
+}
+
+h1 {
+	margin: 0;
+	flex-shrink: 0;
+	font-family: "Matemasie", sans-serif;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffc6ac;
+}
+
+.container {
+	position: relative;
+	max-width: 300px;
+	width: 100%;
+	border-radius: 12px;
+	padding: 10px 20px 20px;
+	background: #fff6dc;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	margin-left: auto;
+}
+
+.display {
+	height: 80px;
+	width: 100%;
+	outline: none;
+	border: none;
+	text-align: right;
+	margin-bottom: 10px;
+	font-size: 25px;
+	color: #222831;
+	pointer-events: none;
+}
+
+.button {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.button button {
+	padding: 10px;
+	border-radius: 6px;
+	border: none;
+	cursor: pointer;
+	border-color: #fff6dc;
+}
+
+.button button:active {
+	transform: scale(0.97);
+}
+
+.operator {
+	color: #9e9fa5;
+}
